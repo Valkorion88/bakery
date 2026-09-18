@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Half Moon Rondout Cafe</title>
+  <meta name="description"
+    content="Half Moon Rondout Cafe offers fresh baked goods, coffee, brunch, and neighborhood warmth in the heart of Rondout." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#top" class="brand" aria-label="Half Moon Rondout Cafe home">
+        <span class="brand-mark">H</span>
+        <span class="brand-text">
+          <strong>Half Moon</strong>
+          <small>Rondout Cafe</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#story">Our Story</a>
+        <a href="#visit">Visit</a>
+        <a href="#events">Events</a>
+      </nav>
+
+      <a href="#visit" class="button button-primary nav-cta">Order Online</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Freshly baked every day</p>
+          <h1>Warm bread, coffee, and community.</h1>
+          <p class="lede">
+            Enjoy farm-driven pastries, hand-shaped loaves, and a neighborhood
+            café atmosphere rooted in the heart of Rondout.
+          </p>
+          <div class="hero-actions">
+            <a href="#menu" class="button button-primary">Explore Menu</a>
+            <a href="#visit" class="button button-secondary">Plan Your Visit</a>
+          </div>
+          <ul class="hero-meta" aria-label="Business highlights">
+            <li>Locally sourced ingredients</li>
+            <li>Open daily</li>
+            <li>Neighborhood favorite</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" aria-label="Bakery showcase">
+          <div class="photo-stack photo-main">
+            <img src="./assets/display.jpg"
+              alt="Fresh artisan bread and breakfast spread" />
+          </div>
+          <div class="photo-card card-top">
+            <span>Fresh from the oven</span>
+            <strong>Cinnamon Sugar Donuts</strong>
+          </div>
+          <div class="photo-card card-bottom">
+            <span>Today’s favorite</span>
+            <strong>Chocolate Babka</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured">
+      <div class="container section-intro">
+        <p class="eyebrow">What’s on the table</p>
+        <h2>Crafted for slow mornings and good company.</h2>
+      </div>
+
+      <div class="container feature-grid">
+        <article class="feature-card">
+          <img src="./assets/breakfast.jpg"
+            alt="Café interior with fresh pastry display" />
+          <div class="feature-body">
+            <span class="tag">Breakfast</span>
+            <h3>Breakfast favorites</h3>
+            <p>Egg sandwiches, ricotta toast, and seasonal fruit pairings.</p>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <img src="./assets/doughnuts.jpg"
+            alt="Fresh pastries and coffee on a cafe table" />
+          <div class="feature-body">
+            <span class="tag">Bakery</span>
+            <h3>Pastries & breads</h3>
+            <p>Handcrafted croissants, buns, and loaves baked daily.</p>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80"
+            alt="Espresso drinks and bakery table setting" />
+          <div class="feature-body">
+            <span class="tag">Cafe</span>
+            <h3>Espresso & tea</h3>
+            <p>Single-origin brews, smooth cappuccinos, and house chai.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <div class="container menu-wrap">
+        <div class="menu-header section-intro align-left">
+          <p class="eyebrow">Signature menu</p>
+          <h2>Simple ingredients, remarkable flavor.</h2>
+        </div>
+
+        <div class="menu-columns">
+          <div class="menu-panel">
+            <h3>Bakery</h3>
+            <ul class="menu-list">
+              <li><span>Country sourdough</span><strong>$8</strong></li>
+              <li><span>Sesame sesame loaf</span><strong>$9</strong></li>
+              <li><span>Cinnamon swirl bun</span><strong>$5</strong></li>
+              <li><span>Almond croissant</span><strong>$6</strong></li>
+              <li><span>Brown butter muffin</span><strong>$4</strong></li>
+            </ul>
+          </div>
+
+          <div class="menu-panel">
+            <h3>Breakfast</h3>
+            <ul class="menu-list">
+              <li><span>Avocado toast</span><strong>$12</strong></li>
+              <li><span>Egg & cheddar sandwich</span><strong>$11</strong></li>
+              <li><span>Ricotta toast</span><strong>$10</strong></li>
+              <li><span>Yogurt parfait</span><strong>$9</strong></li>
+              <li><span>Fruit & granola bowl</span><strong>$8</strong></li>
+            </ul>
+          </div>
+
+          <div class="menu-panel menu-panel-accent">
+            <h3>Café</h3>
+            <ul class="menu-list">
+              <li><span>Drip coffee</span><strong>$4</strong></li>
+              <li><span>Cold brew</span><strong>$5</strong></li>
+              <li><span>Cappuccino</span><strong>$5.5</strong></li>
+              <li><span>Honey lavender latte</span><strong>$6</strong></li>
+              <li><span>Green tea</span><strong>$4</strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="story" id="story">
+      <div class="container story-grid">
+        <div class="story-image-stack">
+          <img class="story-main"
+            src="./assets/interior.jpg"
+            alt="Warm café interior with pastries and coffee" />
+          <img class="story-small"
+            src="./assets/drink.jpg"
+            alt="Fresh croissants and baked goods on a table" />
+        </div>
+
+        <div class="story-copy">
+          <p class="eyebrow">Our story</p>
+          <h2>Built for the rhythm of the neighborhood.</h2>
+          <p>
+            Half Moon Rondout Cafe brings together slow fermentation,
+            thoughtfully sourced ingredients, and a warm café culture that feels
+            like home.
+          </p>
+          <p>
+            From early pastries to late afternoon coffee, every detail is chosen
+            to make the room feel welcoming, bright, and alive.
+          </p>
+          <a href="#visit" class="button button-primary">Visit us</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit" id="visit">
+      <div class="container visit-grid">
+        <div class="visit-card info-card">
+          <p class="eyebrow">Visit</p>
+          <h2>Come by for a morning loaf or a long coffee.</h2>
+          <ul>
+            <li><strong>Address:</strong> 83 Broadway, Kingston, NY</li>
+            <li><strong>Hours:</strong> Tue–Sun · 7:00 AM – 4:00 PM</li>
+            <li><strong>Phone:</strong> (845) 481-5419</li>
+          </ul>
+          <a href="https://maps.google.com" target="_blank" rel="noreferrer" class="button button-secondary">Get
+            Directions</a>
+        </div>
+
+        <div class="visit-card map-card" aria-label="Google map area">
+          <iframe title="Half Moon Rondout Cafe location map"
+            src="https://www.google.com/maps?q=Kingston%20NY&output=embed" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="events" id="events">
+      <div class="container section-intro">
+        <p class="eyebrow">Gatherings & events</p>
+        <h2>Made for good company.</h2>
+      </div>
+
+      <div class="container events-grid">
+        <article class="event-card">
+          <span class="date">Apr 12</span>
+          <h3>Sunday pastry social</h3>
+          <p>Freshly baked staples, coffee flights, and neighborhood catch-ups.</p>
+        </article>
+
+        <article class="event-card">
+          <span class="date">Apr 18</span>
+          <h3>Neighborhood supper club</h3>
+          <p>Seasonal tables, shared plates, and a slow evening menu.</p>
+        </article>
+
+        <article class="event-card">
+          <span class="date">Apr 26</span>
+          <h3>Bakery workshop</h3>
+          <p>Hands-on dough shaping and sourdough basics with our bakers.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#top" class="brand footer-brand" aria-label="Half Moon Rondout Cafe home">
+          <span class="brand-mark">H</span>
+          <span class="brand-text">
+            <strong>Half Moon</strong>
+            <small>Rondout Cafe</small>
+          </span>
+        </a>
+      </div>
+
+      <div>
+        <h4>Visit</h4>
+        <p>83 Broadway<br />Kingston, NY</p>
+      </div>
+
+      <div>
+        <h4>Hours</h4>
+        <p>Tue–Sun<br />7:00 AM – 4:00 PM</p>
+      </div>
+
+      <div>
+        <h4>Connect</h4>
+        <p><a href="mailto:hello@halfmoonrondout.com">hello@halfmoonrondout.com</a><br /><a
+            href="tel:+18455550123">(845) 481-5419</a></p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> Half Moon Rondout Cafe</span>
+      <span>Made for slow mornings.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
